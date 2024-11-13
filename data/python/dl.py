@@ -44,8 +44,8 @@ adblock = [
     "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt",
     "https://raw.gitmirror.com/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt",
     "https://raw.gitmirror.com/PhoenixLjw/AdRules/main/filter-lite.txt",
-    "https://raw.hellogithub.com/hosts",
-    "https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/hosts"
+"https://raw.hellogithub.com/hosts",
+    "https://raw.githubusercontent.com/ineo6/hosts/refs/heads/master/hosts"
     ]
 
 # 白名单规则
