@@ -44,7 +44,6 @@ adblock = [
     "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt",
     "https://raw.gitmirror.com/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt",
     "https://raw.gitmirror.com/PhoenixLjw/AdRules/main/filter-lite.txt",
-    "https://big.oisd.nl/"
     ]
 
 # 白名单规则
