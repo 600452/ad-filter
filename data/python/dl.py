@@ -41,11 +41,21 @@ adblock = [
     "https://lingeringsound.github.io/10007_auto/reward",
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
     "https://jihulab.com/Bibaiji/ad-rules/-/raw/main/rule/ad-rules.txt",
-    "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt",
-    "https://raw.gitmirror.com/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt",
-    "https://raw.gitmirror.com/PhoenixLjw/AdRules/main/filter-lite.txt",
+ "https://raw.gitmirror.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt",
+
 "https://raw.hellogithub.com/hosts",
-    "https://raw.githubusercontent.com/ineo6/hosts/refs/heads/master/hosts"
+
+"https://raw.githubusercontent.com/PhoenixLjw/AdRules/main/adguard.txt",
+
+"https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt",
+
+"https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt",
+
+"https://raw.githubusercontent.com/PhoenixLjw/AdRules/main/dns.txt",
+
+"https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt",
+
+"https://mirror.ghproxy.com/raw.githubusercontent.com/qq5460168/666/master/rules.txt"
     ]
 
 # 白名单规则
@@ -53,7 +63,14 @@ allow = [
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/allowlist.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/allowlist.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/allowlist.txt",
-  "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/allow.txt",
+
+"https://hub.gitmirror.com/https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt",
+
+"https://file-git.trli.club/file-hosts/allow/Domains",
+
+"https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt",
+
+"https://mirror.ghproxy.com/raw.githubusercontent.com/qq5460168/666/master/allow.txt",
 
 "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/allowlist.txt"
 ]
