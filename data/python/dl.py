@@ -35,7 +35,7 @@ subprocess.run("cp ./data/mod/whitelist.txt ./tmp/allow01.txt", shell=True)
 
 # 拦截规则
 adblock = [
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt",
+    "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/multi.txt",
     "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt",
     "https://raw.githubusercontent.com/xndeye/adblock_list/beta/rule/easylist.txt",
     "https://lingeringsound.github.io/10007_auto/reward",
@@ -53,7 +53,9 @@ allow = [
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/allowlist.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/allowlist.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/allowlist.txt",
-    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/allowlist.txt"
+  "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/allow.txt",
+
+"https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/allowlist.txt"
 ]
 
 # 下载
