@@ -37,7 +37,6 @@ subprocess.run("cp ./data/mod/whitelist.txt ./tmp/allow01.txt", shell=True)
 adblock = [
     "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/multi.txt",
     "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt",
-    "https://raw.githubusercontent.com/xndeye/adblock_list/beta/rule/easylist.txt",
     "https://lingeringsound.github.io/10007_auto/reward",
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
     "https://jihulab.com/Bibaiji/ad-rules/-/raw/main/rule/ad-rules.txt",
@@ -51,8 +50,6 @@ adblock = [
 
 "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt",
 
-"https://raw.githubusercontent.com/PhoenixLjw/AdRules/main/dns.txt",
-
 "https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt",
 
 "https://mirror.ghproxy.com/raw.githubusercontent.com/qq5460168/666/master/rules.txt"
@@ -60,9 +57,6 @@ adblock = [
 
 # 白名单规则
 allow = [
-    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/allowlist.txt",
-    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/allowlist.txt",
-    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/allowlist.txt",
 
 "https://hub.gitmirror.com/https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt",
 
@@ -70,9 +64,7 @@ allow = [
 
 "https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt",
 
-"https://mirror.ghproxy.com/raw.githubusercontent.com/qq5460168/666/master/allow.txt",
-
-"https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/allowlist.txt"
+"https://mirror.ghproxy.com/raw.githubusercontent.com/qq5460168/666/master/allow.txt"
 ]
 
 # 下载
