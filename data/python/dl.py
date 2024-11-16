@@ -35,13 +35,10 @@ subprocess.run("cp ./data/mod/whitelist.txt ./tmp/allow01.txt", shell=True)
 
 # 拦截规则
 adblock = [
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
-
-"https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt",
  "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt",
-    "https://lingeringsound.github.io/10007_auto/reward",
+    "https://lingeringsound.github.io/10007_auto/all",
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
-    "https://jihulab.com/Bibaiji/ad-rules/-/raw/main/rule/ad-rules.txt",
 
 "https://raw.githubusercontent.com/xndeye/adblock_list/beta/rule/easylist.txt",
  "https://raw.gitmirror.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt",
