@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-11-21 21:17:00（北京时间）
+! Version: 2024-11-22 11:03:52（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 21102
+! Total count: 21100
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -515,7 +515,6 @@
 @@/themes/flow/frontend_assets/js/advertisement.js|$~third-party
 @@/token/*/master.mp4$stealth,domain=anilife.*
 @@/track?*&ref=$~script,~xmlhttprequest,~other,~image
-@@/track?vid=*&mime=video/mp4&*&domain=*.drive.google.com$stealth,domain=kissasian.sh
 @@/track_click?$~script,~xmlhttprequest,~other,~image
 @@/tracking.php?id$domain=a1.express
 @@/tracking.php?id$domain=esisk.de
@@ -531,7 +530,6 @@
 @@/video/*$media,stealth,domain=douyin.com
 @@/video/*/index.m3u8?*&frame_commit=*&mw_pid=*&signature=$stealth
 @@/video/m3u8
-@@/videoplayback?vid=*.drive.google.com&*&mime=video/mp4$stealth,domain=kissasian.sh
 @@/videos/*$domain=pornhub.com|pornhub.net|pornhub.org|pornhubthbh7ap3u.onion
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net
 @@/viewad.$stylesheet,script,domain=adz7short.space|short.croclix.me|short.goldenfaucet.io
@@ -20762,7 +20760,7 @@
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||xfinity.com^$stealth
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide! Checksum: zfVhCz6bCST/nPFZRgfxZA
+@@||xfreehd.com^$generichide! Checksum: si6/Wiz/hhSuTnGKF98lNQ
 @@||xg4ken.com/trk/*&adgroupid=
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhamster.com/ajax/
