@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-11-22 21:15:33（北京时间）
+! Version: 2024-11-23 10:59:15（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 21103
+! Total count: 21105
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -3635,6 +3635,7 @@
 @@||apnetv.tv^$generichide
 @@||app-advertise.zhihuishu.com^
 @@||app-api.pixiv.net^$important
+@@||app-api.smzdm.com^$important
 @@||app-measurement.com^$important
 @@||app-site-association.cdn-apple.com^$important
 @@||app-site-association.networking.apple^$important
@@ -11485,6 +11486,7 @@
 @@||jimdo.com^
 @@||jimstatic.com/cookieControl.js$domain=yaxi.jp
 @@||jin10.com^$generichide
+@@||jingfen.jd.com^$important
 @@||jinyongci.com^$generichide
 @@||jiocinema.com^$generichide
 @@||jiovod.wdrm.cdn.jio.com^$stealth
@@ -20763,7 +20765,7 @@
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||xfinity.com^$stealth
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide! Checksum: si6/Wiz/hhSuTnGKF98lNQ
+@@||xfreehd.com^$generichide! Checksum: Us1i233OQBVPqliAaXGoSw
 @@||xg4ken.com/trk/*&adgroupid=
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhamster.com/ajax/
