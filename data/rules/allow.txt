@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-11-23 21:03:13（北京时间）
+! Version: 2024-11-24 11:09:13（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 21104
+! Total count: 21111
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -3342,6 +3342,7 @@
 @@||api-maps.yandex.$stealth=referrer
 @@||api-maps.yandex.ru/services/startup/$stealth
 @@||api-mg2.db-ip.com^$xmlhttprequest,domain=journal-news.com
+@@||api-pda.jdl.com^$important
 @@||api-public.stoerungsauskunft.de/api$stealth
 @@||api-rewarded-video.fyber.com^$app=net.wooga.tropicats_tropical_cats_puzzle_paradise
 @@||api-secure.solvemedia.com^
@@ -3470,6 +3471,7 @@
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.iplay.163.com^
 @@||api.its-mo.com^$stealth
+@@||api.jdl.com^$important
 @@||api.joara.com/v1/banner/main_popup.joa$app=com.joara.mobile
 @@||api.jr.mi.com^$important
 @@||api.karte.io^
@@ -6364,6 +6366,7 @@
 @@||conspatriot.com^$generichide
 @@||constantcontact.com/js/WebTracking/
 @@||construction21.org/france/libsrc/jquery/jquery.cookiesdirective.explicit.min.js
+@@||consumerapp-1251779293.image.myqcloud.com^$important
 @@||contacts.google.com^$generichide
 @@||content*.uplynk.com/channel/*.m3u8?$domain=abc.com
 @@||content*.uplynk.com/channel/*.m3u8?$domain=abcnews.go.com
@@ -7716,6 +7719,7 @@
 @@||ero18.cc^$generichide
 @@||erolnik.gov.pl/content/scripts/cookieconsent.min.js
 @@||erovoice.us^$generichide
+@@||erp.jd.com^$important
 @@||erpsoftwarelink.blogspot.com^$generichide
 @@||err.taobao.com^
 @@||erreguete.gal^$generichide
@@ -10057,6 +10061,7 @@
 @@||h5.hpplay.com.cn^
 @@||h5.m.taobao.com^$important
 @@||h5.mse.360.cn^
+@@||h5api.m.taobao.com^$important
 @@||haafedk2.com^$generichide
 @@||haaretz.co.il/htz/js/advertisement.js
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
@@ -12311,6 +12316,7 @@
 @@||looptorrent.net^$generichide
 @@||lootlinks.*/js/prebid-ads.js
 @@||lootup.me/assets/js/ads-prebid.js
+@@||lop-proxy.jd.com^$important
 @@||lordchannel.com^$generichide
 @@||lordplayer.club/*/*.m3u8$stealth
 @@||lordserials.cx^$stealth=3p-cookie
@@ -15296,6 +15302,7 @@
 @@||pcworld.pl/*/news/thumbnails/$~third-party,image
 @@||pcworldcommunication.*.sc.omtrdc.net/b/ss/
 @@||pcworldcommunication.d2.sc.omtrdc.net/b/ss/$domain=techhive.com
+@@||pda.jd.com^$important
 @@||pdalife.ru/advertisement.js
 @@||pdc.micloud.xiaomi.net^$important
 @@||pdk.theplatform.com/*/AdManager.swf$domain=vplayer.nbcsports.com
@@ -20764,7 +20771,7 @@
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||xfinity.com^$stealth
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide! Checksum: Us1i233OQBVPqliAaXGoSw
+@@||xfreehd.com^$generichide! Checksum: o7kFsZXJ6gF/5XD3O0WHpQ
 @@||xg4ken.com/trk/*&adgroupid=
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhamster.com/ajax/
