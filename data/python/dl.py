@@ -37,8 +37,6 @@ subprocess.run("cp ./data/mod/whitelist.txt ./tmp/allow01.txt", shell=True)
 adblock = [
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt",
  "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt",
-    "https://lingeringsound.github.io/10007_auto/all",
-    "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
 
 "https://raw.githubusercontent.com/xndeye/adblock_list/beta/rule/easylist.txt",
  "https://raw.gitmirror.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt",
