@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-11-28 21:18:50（北京时间）
+! Version: 2024-11-29 11:07:48（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 21281
+! Total count: 21285
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -19417,6 +19417,7 @@
 @@||track.adform.net/*serving/opt/iab
 @@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
 @@||track.adform.net/serving/scripts/trackpoint/async/$domain=ethias.be
+@@||track.adtraction.com/t/*&url=*://www.gog.com/$domain=pcgamingwiki.com
 @@||track.adtraction.com/t/t?a*epi=*url=
 @@||track.aliexpress.com^
 @@||track.cpau.info^
@@ -20351,6 +20352,8 @@
 @@||vviruslove.com^$generichide
 @@||vvvvid.it/img/ad/advertisement.xml$xmlhttprequest
 @@||vw-page.com/wcf/js/advertisement.js
+@@||vweixinf.tc.qq.com^$important
+@@||vweixinthumb.tc.qq.com^$important
 @@||vypocitejto.cz/advertisment.js
 @@||w.pandora.xiaomi.com^$important
 @@||w2g.tv/rooms/$stealth
@@ -20894,6 +20897,7 @@
 @@||wx3.sinaimg.cn/large^$app=com.xiaoyin.love
 @@||wx3.sinaimg.cn/wap720^
 @@||wxapp.lvyadx.cn^
+@@||wxapp.tc.qq.com^$important
 @@||wxsnsdy.wxs.qq.com^
 @@||wxsnsdy.wxs.qq.com^$important
 @@||wxsnsencsvp.wxs.qq.com^$important
@@ -20938,7 +20942,7 @@
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||xfinity.com^$stealth
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide! Checksum: 0dRUojCjFE/UCU/2i2v46w
+@@||xfreehd.com^$generichide! Checksum: L7iDrBo/uyrZtzk67wYCVQ
 @@||xg4ken.com/trk/*&adgroupid=
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhamster.com/ajax/
