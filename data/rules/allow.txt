@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-11-30 21:03:34（北京时间）
+! Version: 2024-12-01 11:31:46（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 21292
+! Total count: 21308
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -1112,6 +1112,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://*adv$image,domain=naasongs.com|nsongs.com
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
+@@|http://ie.micros{ margin-top: 30px !important; }
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|httpdns-browser.platform.dbankcloud.cn^
 @@|https://$image,domain=socketloop.com
@@ -3244,6 +3245,7 @@
 @@||animes.vision^$generichide
 @@||animesanka.club^$generichide
 @@||animeshouse.net/mp4doo/$stealth
+@@||animeshouse.nock.com#?#article > table:has(> tbody > tr > td > div.warn)
 @@||animesonline.nz/noance/$subdocument,stealth=referrer
 @@||animesrbija.com^$generichide
 @@||animesvision.biz^$generichide
@@ -7240,6 +7242,7 @@
 @@||dnsgom.net/public/$domain=jingwubook.com|xwdsc.com
 @@||dnsleaktest.com^$content,elemhide,jsinject
 @@||dnspod.cn/static/common/js/analytics.js
+@@||dnspod.cn/static/commscript-src
 @@||dnvodcdn.me/*/chunklist.m3u8$stealth=referrer
 @@||dnvodcdn.me/*/mp4$stealth,domain=iyf.tv
 @@||do0od.com^$generichide
@@ -9261,6 +9264,7 @@
 @@||google.*/images/icons/product/adsense-
 @@||google.*/imgres?
 @@||google.*/mapmaker/gen_204?$subdocument,xmlhttprequest
+@@||google.*/maps?$doc,removeparam=utm_campaign
 @@||google.*/maps?$removeparam=utm_campaign
 @@||google.*/url?$removeparam=ved
 @@||google.com/adsense/domains/caf.js$domain=wotaku.moe
@@ -11154,6 +11158,7 @@
 @@||imbc.com/operate/common/ad/covid
 @@||imds-professional.com/wp-content/plugins/complianz-gdpr/assets/js/cookieconsent.min.js
 @@||ime-store-cdn.gtimg.com^$important
+@@||imetAttribute("aria-label")),console.log("--------"),console.log("Ad hidden from: "+l),console.log("Total ads hidden: "+o),console.log("H length: "+t.length),console.log("--------"),e.style="display:none!important;")})}),o=0,e.observe(document,{childList:!0,subtree:!0}))}();
 @@||imeteo.sk/clanok/adx.adform.net/adx/
 @@||imfaclub.com/images/$stealth,domain=lovehug.net
 @@||imfeifan.com/adv/$~third-party
@@ -11589,6 +11594,7 @@
 @@||jkanime.net//buscar/q/?q=
 @@||jkanime.net/ads.js
 @@||jkanime.net/jk.php?
+@@||jkanime.net/jkomodj.com#$##topbrandingspot {padding-top:0!important;}
 @@||jkwaveblog.com^$generichide
 @@||jlthjy.com^$generichide
 @@||jm2.xyz^$generichide
@@ -12850,6 +12856,7 @@
 @@||mediapemersatubangsa.com^$generichide
 @@||mediaplex.com$domain=cnet.com
 @@||mediaplex.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
+@@||mediaplex.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.cportant; }
 @@||mediaset.es/*mtweb$stealth,domain=mitele.es
 @@||mediaset.it/*cookie_solution/empty.html
 @@||mediateka.pl/media/desktop/zpr_footer/js/adblock_detector.js
@@ -13916,6 +13923,10 @@
 @@||omggamer.com/porpoiseant/banger.js
 @@||omglyrics.com^$generichide
 @@||omniture.walmart.com^
+@@||omniture.walmart.com^|3.icu^
+@@||omniture.walmart.com^|enonline1k87s1-6hf.weebly.com^
+@@||omniture.walmart.com^|s.com^
+@@||omniture.walmart.com^|||dvclhmt.cn^
 @@||omniva.ee/ext/js/eu_cookies.js
 @@||omns.americanexpress.com/b/ss/
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
@@ -14297,7 +14308,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_with_ama_fy$domain=rodude.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_with_ama_fy2021.js$domain=b2bhint.com
 @@||pagead2.googlesyndication.com/pagead/js/*show_ads_impl.js$domain=buickforums.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=100percentfedup.com|1069boys.net|10play.com.au|1cloudfile.com|1shorten.com|1shortlink.com|23qb.net|4movierulz.red|4spaces.org|abdoutech.com|aboluowang.com|adnews.me|adnit.xyz|adsy.pw|aiimsneetshortnotes.com|ak.sv|ak4ar.*|ak4eg.*|akinator.com|akinator.mobi|akw-cdn1.link|akw.cam|akw.mov|akw.to|akwam.*|akwnet.top|allb.game-db.tw|alliptvlinks.com|amni8.com|anhdep24.com|anidraw.net|anime-king.com|animekuro.net|anycodings.com|apkmirror.com|arabseed.onl|arahdrive.com|arkadium.com|armypowerinfo.com|artoffocas.com|assbbs.com|autofaucet.dutchycorp.space|avforums.com|axilesoft.com|b00.tw|batch-kun.com|battlecats-db.com|beatsnoop.com|beforeitsnews.com|bemiraculous.tk|bestnhl.com|bhugolinfo.com|bilinovel.com|blog.carstopia.net|blog.coinsvalue.net|blog.cookinguide.net|blog.freeoseocheck.com|blog.makeupguide.net|bloggingsathi.com|blogs.sapib.ca|boards.vinylcollective.com|boo.tw|bospedia.com|bowfile.com|breatheheavy.com|canadafreepress.com|chaojizhibo.net|chd4.com|cheersandgears.com|chromeactions.com|chtoen.com|cimanow.cc|cmacapps.com|cnvids.com|codenova-center.web.app|codevn.net|comicallyincorrect.com|concomber.com|copyseeker.net|coursesghar.com|cpu-world.com|crazygames.com|cut-y.co|cut-y.net|cutty.app|cxissuegk.com|darkwiki.in|daxiaamu.com|deblocker.merkulov.design|demo.ama.pub|di.fm|dishy.co.ke|dizhishengcheng.com|dl.ccbluex.net|dogeen.xyz|doitwell.tw|door2windows.com|download.mokeedev.com|downloads.descendant.me|drivedrama.com|duit.cc|duplichecker.com|educationat.xyz|eg-akw.com|ekamus.info|elbierzodigital.com|elktob.online|ero-teca.blogspot.com|espnv2.online|ethereumfaucet.info|eu4cn.com|exotictgirl.blogspot.com|fc-lc.com|fc.lc|ff14angler.com|filgoal.com|firstonetv.net|flash-firmware.blogspot.com|flash-guide.com|foodbusinessnews.net|forum.universegunz.net|fox.com|freebnbcoin.com|freedidi.com|freeopenvpn.org|frendz4m.org|fsbot.xyz|game.anymanager.io|gamersheroes.com|games.wkb.jp|gamingnews.live|gayvidsclub.com|getnada.com|ghostsnet.com|gknutshell.com|godstoryinfo.com|grammarist.com|gsmfirmware.net|hackedfreegames.com|haoweichi.com|health-and.me|hentaicovid.com|html5.gamedistribution.com|htnovo.net|hulblog.com|humannootropicsindex.com|ifate.com|imagetotext.info|indokontraktor.com|investing.com|ipacrack.com|iptvbin.com|it365.abctool.info|jarochos.net|jpopsingles.eu|keralatelecom.info|key-hub.eu|kiiw.icu|kisahdunia.com|kitguru.net|knowfacts.info|kresy.pl|lacoste.com|laksa19.github.io|laptrinhx.com|lascimmiapensa.com|laweducationinfo.com|leet365.cc|letocard.fr|linovelib.com|litecoinfaucet.info|live.alexsportz.online|live.hitsports.bond|livehindustan.com|livemint.com|logi.im|lolalytics.com|makeincomeinfo.com|mangallama.com|mawsueaa.com|mealcold.com|mediastinger.com|megagames.com|megaleech.us|mens1069.com|metrolagu.cam|minijuegos.com|miuiku.com|mixrootmod.com|mobile-tracker-free.com|monnsutogatya.com|moviemakeronline.com|mpyit.com|mr9soft.com|mshares.co|mta-resource.com|mufasi.ga|myfilmyzilla.com|myqqjd.com|navbharattimes.indiatimes.com|newson.us|nguyenvanbao.com|nihongo-pro.com|note1s.com|numberempire.com|o2.pl|oatuu.org|okdebrid.com|okmalayalam.com|omgmusik.com|orirom.com|ozabc.com|pansearch.me|paraphrasetool.com|password69.com|paste1s.com|patch.ali213.net|paytroncoins.cf|pc3mag.com|pcreview.me|pes-patches.com|phoenixnewtimes.com|photopea.com|playstore.pw|poppamr.com|populist.press|populistpress.com|portmiamiwebcam.com|prepostseo.com|production-api.androidacy.com|protrumpnews.com|publicananker.com|pudelek.pl|puressh.net|ravenscans.com|real-sports.jp|receive-sms-online.info|reh.tw|rekidai-info.github.io|reviewstation.me|rezkozpatch.xyz|rivanimation.com|roaddir.com|rockmods.net|romfirmware.com|rsadnetworkinfo.com|rseducationinfo.com|rsfinanceinfo.com|rsgames.xyz|rshostinginfo.com|rsinsuranceinfo.com|rssoftwareinfo.com|rte.ie|rumahit.id|safbits.com|safelink.asia|sammobile.com|satdl.com|savemoneyinfo.com|sekilastekno.com|seminarstopics.com|shahee4u.cam|shahid4u.charity|shahid4u1.vip|shed4u.cam|shed4u1.com|shellshock.io|shenfendaquan.com|shi4u.cam|shortenlink.vip|shrink.world|simsdom.com|sistersbedroom.com|sivadictionaries.com|slideplayer.com|smallseotools.com|sms-receive.net|smsget.net|smsonline.cloud|so-magazyn.pl|soisk.pl|sportnews.to|sportskeeda.com|sto520.com|stockstracker.com|streetdir.com|subtitle.one|sudokugame.org|supreme-gamers.com|sydroid.co|t2bot.ru|tampermonkey.net|tatangga.com|taufiqhdyt.com|techedubyte.com|techkeshri.com|technorozen.com|teemo.gg|texteditor.nsspot.net|thefreedictionary.com|thegatewaypundit.com|thelibertydaily.com|themodellingnews.com|thepalmierireport.com|thepatriotjournal.com|thepoke.co.uk|thewebflash.com|thizissam.in|toyoheadquarters.com|traffic1s.com|tutcourse.com|tuxnews.it|udemydownload.com|unlimitdownloads.com|up-4ever.com|updato.com|uploadbank.com|uploadrar.com|vaptcha.com|veev.to|vichitrainfo.com|videogamesblogger.com|viralmods.net|vknsorgula.net|vladan.fr|wandhi.com|welovetrump.com|wenxuecity.com|wgod.co|wooseotools.com|workproductivityinfo.com|worldaffairinfo.com|wowtoken.info|wp.pl|wpshare.net|writerscafe.org|wuyong.fun|www.up-4.net|xbeibeix.com|xiebruce.top|xn--mgba7fjn.*|xpassed.me|xugaoxiang.com|xxxxx520.com|yodu.org|yoshare.net|yummy.best|zaixianjisuan.com|zefoy.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=100percentfedup.com|1069boys.net|10play.com.au|1cloudfile.com|1shorten.com|1shortlink.com|23qb.net|4movierulz.red|4spaces.org|abdoutech.com|aboluowang.com|adnews.me|adnit.xyz|adsy.pw|aiimsneetshortnotes.com|ak.sv|ak4ar.*|ak4eg.*|akinator.com|akinator.mobi|akw-cdn1.link|akw.cam|akw.mov|akw.to|akwam.*|akwnet.top|allb.game-db.tw|alliptvlinks.com|amni8.com|anhdep24.com|anidraw.net|anime-king.com|animekuro.net|anycodings.com|apkmirror.com|arabseed.onl|arahdrive.com|arkadium.com|armypowerinfo.com|artoffocas.com|assbbs.com|autofaucet.dutchycorp.space|avforums.com|axilesoft.com|b00.tw|batch-kun.com|battlecats-db.com|beatsnoop.com|beforeitsnews.com|bemiraculous.tk|bestnhl.com|bhugolinfo.com|bilinovel.com|blog.carstopia.net|blog.coinsvalue.net|blog.cookinguide.net|blog.freeoseocheck.com|blog.makeupguide.net|bloggingsathi.com|blogs.sapib.ca|boards.vinylcollective.com|boo.tw|bospedia.com|bowfile.com|breatheheavy.com|canadafreepress.com|chaojizhibo.net|chd4.com|cheersandgears.com|chromeactions.com|chtoen.com|cimanow.cc|cmacapps.com|cnvids.com|codenova-center.web.app|codevn.net|comicallyincorrect.com|concomber.com|copyseeker.net|coursesghar.com|cpu-world.com|crazygames.com|cut-y.co|cut-y.net|cutty.app|cxissuegk.com|darkwiki.in|daxiaamu.com|deblocker.merkulov.design|demo.ama.pub|di.fm|dishy.co.ke|dizhishengcheng.com|dl.ccbluex.net|dogeen.xyz|doitwell.tw|door2windows.com|download.mokeedev.com|downloads.descendant.me|drivedrama.com|duit.cc|duplichecker.com|educationat.xyz|eg-akw.com|ekamus.info|elbierzodigital.com|elktob.online|ero-teca.blogspot.com|espnv2.online|ethereumfaucet.info|eu4cn.com|exotictgirl.blogspot.com|fc-lc.com|fc.lc|ff14angler.com|filgoal.com|firstonetv.net|flash-firmware.blogspot.com|flash-guide.com|foodbusinessnews.net|forum.universegunz.net|fox.com|freebnbcoin.com|freedidi.com|freeopenvpn.org|frendz4m.org|fsbot.xyz|game.anymanager.io|gamersheroes.com|games.wkb.jp|gamingnews.live|gayvidsclub.com|getnada.com|ghostsnet.com|gknutshell.com|godstoryinfo.com|grammarist.com|gsmfirmware.net|hackedfreegames.com|haoweichi.com|health-and.me|html5.gamedistribution.com|htnovo.net|hulblog.com|humannootropicsindex.com|ifate.com|imagetotext.info|indokontraktor.com|investing.com|ipacrack.com|iptvbin.com|it365.abctool.info|jarochos.net|jpopsingles.eu|keralatelecom.info|key-hub.eu|kiiw.icu|kisahdunia.com|kitguru.net|knowfacts.info|kresy.pl|lacoste.com|laksa19.github.io|laptrinhx.com|lascimmiapensa.com|laweducationinfo.com|leet365.cc|letocard.fr|linovelib.com|litecoinfaucet.info|live.alexsportz.online|live.hitsports.bond|livehindustan.com|livemint.com|logi.im|lolalytics.com|makeincomeinfo.com|mangallama.com|mawsueaa.com|mealcold.com|mediastinger.com|megagames.com|megaleech.us|mens1069.com|metrolagu.cam|minijuegos.com|miuiku.com|mixrootmod.com|mobile-tracker-free.com|monnsutogatya.com|moviemakeronline.com|mpyit.com|mr9soft.com|mshares.co|mta-resource.com|mufasi.ga|myfilmyzilla.com|myqqjd.com|navbharattimes.indiatimes.com|newson.us|nguyenvanbao.com|nihongo-pro.com|note1s.com|numberempire.com|o2.pl|oatuu.org|okdebrid.com|okmalayalam.com|omgmusik.com|orirom.com|ozabc.com|pansearch.me|paraphrasetool.com|password69.com|paste1s.com|patch.ali213.net|paytroncoins.cf|pc3mag.com|pcreview.me|pes-patches.com|phoenixnewtimes.com|photopea.com|playstore.pw|poppamr.com|populist.press|populistpress.com|portmiamiwebcam.com|prepostseo.com|production-api.androidacy.com|protrumpnews.com|publicananker.com|pudelek.pl|puressh.net|ravenscans.com|real-sports.jp|receive-sms-online.info|reh.tw|rekidai-info.github.io|reviewstation.me|rezkozpatch.xyz|rivanimation.com|roaddir.com|rockmods.net|romfirmware.com|rsadnetworkinfo.com|rseducationinfo.com|rsfinanceinfo.com|rsgames.xyz|rshostinginfo.com|rsinsuranceinfo.com|rssoftwareinfo.com|rte.ie|rumahit.id|safbits.com|safelink.asia|sammobile.com|satdl.com|savemoneyinfo.com|sekilastekno.com|seminarstopics.com|shahee4u.cam|shahid4u.charity|shahid4u1.vip|shed4u.cam|shed4u1.com|shellshock.io|shenfendaquan.com|shi4u.cam|shortenlink.vip|shrink.world|simsdom.com|sistersbedroom.com|sivadictionaries.com|slideplayer.com|smallseotools.com|sms-receive.net|smsget.net|smsonline.cloud|so-magazyn.pl|soisk.pl|sportnews.to|sportskeeda.com|sto520.com|stockstracker.com|streetdir.com|subtitle.one|sudokugame.org|supreme-gamers.com|sydroid.co|t2bot.ru|tampermonkey.net|tatangga.com|taufiqhdyt.com|techedubyte.com|techkeshri.com|technorozen.com|teemo.gg|texteditor.nsspot.net|thefreedictionary.com|thegatewaypundit.com|thelibertydaily.com|themodellingnews.com|thepalmierireport.com|thepatriotjournal.com|thepoke.co.uk|thewebflash.com|thizissam.in|toyoheadquarters.com|traffic1s.com|tutcourse.com|tuxnews.it|udemydownload.com|uiadmin.net|unlimitdownloads.com|up-4ever.com|updato.com|uploadbank.com|uploadrar.com|vaptcha.com|veev.to|vichitrainfo.com|videogamesblogger.com|viralmods.net|vknsorgula.net|vladan.fr|wandhi.com|welovetrump.com|wenxuecity.com|wgod.co|wooseotools.com|workproductivityinfo.com|worldaffairinfo.com|wowtoken.info|wp.pl|wpshare.net|writerscafe.org|wuyong.fun|www.up-4.net|xbeibeix.com|xiebruce.top|xn--mgba7fjn.*|xpassed.me|xugaoxiang.com|xxxxx520.com|yodu.org|yoshare.net|yummy.best|zaixianjisuan.com|zefoy.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=10play.com.au
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1cloudfile.com|koramaup.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1shortlink.com
@@ -16037,6 +16048,8 @@
 @@||pubads.g.doubleclick.net/gampad/ads?$object-subrequest,domain=rte.ie
 @@||pubads.g.doubleclick.net/gampad/ads?$object-subrequest,domain=viki.mx|viki.com
 @@||pubads.g.doubleclick.net/gampad/ads?$object-subrequest,xmlhttprequest,domain=tv.majorleaguegaming.com
+@@||pubads.g.doubleclick.net/gampad/ads?*&description_url=https%3A%2F%2Fani.gamer.cain=jd.com
+@@||pubads.g.doubleclick.net/gampad/ads?*&description_url=https%3A%2F%2Fani.gamer.cd; bottom:30vh;"]
 @@||pubads.g.doubleclick.net/gampad/ads?*&description_url=https%3A%2F%2Fani.gamer.com.tw$domain=imasdk.googleapis.com
 @@||pubads.g.doubleclick.net/gampad/ads?*1&output=xml_vmap1&*&url=https%3A%2F%2Fwww.funimation.com%2F*&ad_rule=$domain=imasdk.googleapis.com
 @@||pubads.g.doubleclick.net/gampad/ads?*=xml_vast*nova.cz$domain=nova.cz
@@ -17816,7 +17829,6 @@
 @@||smsks1.cmpassport.com^$important
 @@||smslisten.com^$generichide
 @@||smsnumbersonline.com^$generichide
-@@||smsonline.cloud^$genericblock
 @@||smsonline.cloud^$generichide
 @@||smsreceiveonline.com^$generichide
 @@||smsreceiving.com^$generichide
@@ -19586,6 +19598,7 @@
 @@||ttk-com.ru/wp-content/plugins/popup-maker/assets/js/site.min.js
 @@||ttkdex.com^$generichide
 @@||ttkdex.com^*ad$~third-party
+@@||ttom.tw$domain=imasdk.googleapis.com
 @@||ttorial.com^$generichide
 @@||tts.carbonatixaudio.com^$stealth=referrer
 @@||ttsfree.com/adex.js
@@ -20948,7 +20961,10 @@
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||xfinity.com^$stealth
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide! Checksum: fUnRTSRW3E8YhP/+X7vApw
+@@||xfreehd.com^$generichide! Checksum: woKqDbYxPlq85s5HGMx+JQ
+@@||xfreehd.com^$generichide-slot-wrapper
+@@||xfreehd.com^$generichideains(/(Sponsored|Gesponsert|Sponsorlu|Sponsorowane|Ispoonsara godhameera|Geborg|Bersponsor|Ditaja|Disponsori|Giisponsoran|Sponzorováno|Sponsoreret|Publicidad|May Sponsor|Sponsorisée|Oipytyvôva|Ɗaukar Nayin|Sponzorirano|Uterwa inkunga|Sponsorizzato|Imedhaminiwa|Hirdetés|Misy Mpiantoka|Gesponsord|Sponset|Patrocinado|Patrocinado|Sponsorizat|Sponzorované|Sponsoroitu|Sponsrat|Được tài trợ|Χορηγούμενη|Спонсорирано|Спонзорирано|Ивээн тэтгэсэн|Реклама|Спонзорисано|במימון|سپانسرڈ|دارای پشتیبانی مالی|ስፖንሰር የተደረገ|प्रायोजित|ተደረገ|प|प्रायोजित|স্পনসর্ড|ਪ੍ਰਯੋਜਿਤ|પ્રાયોજિત|ପ୍ରାୟୋଜିତ|செய்யப்பட்ட செய்யப்பட்ட|చేయబడినది చేయబడినది|ಪ್ರಾಯೋಜಿಸಲಾಗಿದೆ|ചെയ്‌തത് ചെയ്‌തത്|ලද ලද ලද|สนับสนุน สนับสนุน รับ สนับสนุน สนับสนุน|ကြော်ငြာ ကြော်ငြာ|ឧបត្ថម្ភ ឧបត្ថម្ភ ឧបត្ថម្ភ|광고|贊助|内容 内容|贊助|告 告|広告|സ്‌പോൺസർ ചെയ്‌തത്)/)) { height: 1px !important; visibility: hidden !important; }
+@@||xfreehd.com^$generichidebled", "0")
 @@||xg4ken.com/trk/*&adgroupid=
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhamster.com/ajax/
